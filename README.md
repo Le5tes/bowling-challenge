@@ -24,9 +24,9 @@ The models for this project are [here](https://github.com/Le5tes/bowling-challen
 Jasmine is the testing framework.
 
 #### Approach ####
-Much of the complexity of the scoring logic for bowling can be made much simpler by spacing it across the frame and game classes according to their respective responsabilities. There is no fundamental difference between the last frame and the others in that all frames expect either two or three rolls depending on whether the ten pins have been knocked down. The game class can therefore give rolls to all previous frames to use as they will. The game class is responsable for making sure there are the right number of frames, and starting new frames at the right time.
+Much of the complexity of the scoring logic for bowling can be made much simpler by spacing it across the frame and game classes according to their respective responsibilities. There is no fundamental difference between the last frame and the others in that all frames expect either two or three rolls depending on whether the ten pins have been knocked down. The game class can therefore give rolls to all previous frames to use as they will. The game class is responsable for making sure there are the right number of frames, and starting new frames at the right time.
 
-Once this basic logic was implemented, the interface and validation could be easily buit on top of it.
+Once this basic logic was implemented, the interface and validation could be easily built on top of it.
 
 #### Next Steps ####
 This could be quite easily extended to allow multiplayer scoring.
